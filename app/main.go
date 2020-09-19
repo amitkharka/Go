@@ -9,6 +9,8 @@ func main() {
 
 	amount := getAmount()
 	fmt.Print(amount)
+	var days int = 27
+	fmt.Printf("\n%i", days)
 }
 
 func getAmount() float64 {
